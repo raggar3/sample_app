@@ -1,0 +1,63 @@
+
+{  
+   "items":[
+      {  
+         "name":"Appetizer",
+         "groups":[  
+            {  
+               "id":"app_001",
+               "Name":"Yogurt Raita",
+               "Price":"$2",
+               "more_info":"This cool, creamy condiment is a complement dish with Indian recipes. Whole-milk yogurt soothes. Combine the cucumber, yogurt, coriander and onion.",
+               "imgpath":"images/Raita.png"
+            },
+            {  
+               "id":"app_002",
+               "Name":"Gluacamole",
+               "Price":"$2",
+               "more_info":"Guacamole is an avocado-based dip and is Mexican cuisine. Add a lemon juice chopped cilantro, chiles, onion, and tomato. Mix it up properly. Sever with tortilla chips and other Maxican dish.",
+               "imgpath":"images/glucamole.png"
+            },
+            {  
+               "id":"app_003",
+               "Name":"Masala Chas(Buttor milk)",
+               "Price":"$2",
+               "more_info":" It is basically a diluted, salted yogurt drink and yogurt-based drink popular across India.Also one of the popular summer cooler made with yogurt, made all over india with some variations. Add little bit dry coriander powder and salt.",
+               "imgpath":"images/chaash.png"
+            }
+         ]
+      },
+      {
+         "name":"Entry",
+         "groups":[  
+            {  
+               "id":"ent_001",
+               "Name":"Dal tarka",
+               "Price":"$4",
+               "more_info":"Dal tarka is most popular dal recipe from north india. Basically, Dal tadka are cooked lentils which are lastly tempered with oil or ghee fried spices like onion, tomato, cilantro & herbs.Yello lentils (pigeon pea), chopped onions, chopped tomatoes, chopped garlic and ginger, fresh coriander (cilantro), dry red chili, clarified butter, jeera (cumin seeds).",
+               "imgpath":"images/daltarka.png"
+            },
+            {  
+               "id":"ent_002",
+               "Name":"Gujarati dal 'n' rice",
+               "Price":"$4",
+               "more_info":"This is traditional recipe from Gujarat india. There is a saying in gujarati that meal is not complete without a bowl of this khatti meethi dal.(Lentils) Gujarati dal is famous for its mild spicy, sweet and sour taste. It is serve with plaing rice. Toor dal (Pigeon peas or arhar dal),Peanuts ,Water, Red chili powder, Turmeric powder,Mustard seeds,Cumin seeds.",
+               "imgpath":"images/dal-rice.png"
+            },
+            {  
+               "id":"ent_003",
+               "Name":"Gujarati Kadhi",
+               "Price":"$4",
+               "more_info":"Gujarati Kadhi A Yogurt based gravy(curry) dish from Gujarat, India. Gujarati kadhi is made from sour yogurt and usually serve it with Plain rice and sometimes with moong dal khichdi. Sometime you can have it like side dish.Sour Yogurt, Besan (Chickpea flour), Ginger paste or freshly grated, Green chilies. For the tempering: Ghee (Clarified butter),Mustard seeds, Cumin seed, Dry red chili.",
+               "imgpath":"images/dum_biryani.jpg"
+            },
+            {  
+               "id":"ent_004",
+               "Name":"Paneer curry",
+               "Price":"$6",
+               "more_info":"This is a mouthwatering  delicious  recipe of paneer (Indian cheese), capsicum, tomato, onion and traditional Indian spices cooked in ghee, is one of the most popular curry recipes of Indian and specially Punjabi cuisine. It is a main course curry recipe and generally served with Indian breads like roti.",
+               "imgpath":"images/paneer_curry.png"
+            }]
+      }
+   ]
+}

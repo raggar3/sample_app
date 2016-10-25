@@ -1,0 +1,23 @@
+<div ng-repeat="fname in foddcategory.foodname.items" class="_food_category_block">
+    <div id="category-{{fname.name}}" class="food_category _onclick_food_category">
+        <a class="menu_name" href="javascript:void(0)">{{fname.name}}</a>
+    </div>
+    <div class="_food_menu_name">
+        <div class="row _food_row" ng-repeat="n in fname.groups">
+            <div>
+                <a class="col f_image_link" href="#" >
+                    <img class="_f_image"  src="{{n.imgpath}}" alt="food name">
+                </a>
+            </div>
+            <div class="col col-75">
+                <div class="_f_item_name">
+                    <div class="food_name">{{n.Name}}</div>
+                    <div class="food_price">{{n.Price}}</div>
+                    <div class="food_more_info">
+                    <a class="more_info_link" href="#/fooditem1/{{n.id}}">More description...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 

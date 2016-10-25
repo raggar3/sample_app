@@ -1,0 +1,33 @@
+<ion-header-bar align-title="center" class="bar-positive">
+      <div class="buttons" ng-controller="HomepCtrl">
+        <button class="button" ng-click="getfoodmenu()">Food Menu</button>
+      </div>
+     
+        <h1 class="title">Food Menu</h1>
+    
+      <div class="buttons">
+        <button class="button" ng-click="loadmodal()">Call to order</button>
+      </div>
+</ion-header-bar>
+<ion-content class="background_image">
+	<div  ng-controller="getfoodidctrl" >
+	 
+    <div class="food_desc_holder">
+      <div>
+        <h2 class="food_desc_title">{{fddata.Name}}</h2>
+      </div>
+      <hr>
+      <div>
+        <div class="food_desc_img">
+          <img  class="full-image" src="{{fddata.imgpath}}" alt="food name">
+        </div>
+        <hr>
+        <p class="food_desc_p">
+          {{fddata.more_info}}
+        </p>
+      </div>
+    </div>
+
+    
+	</div>
+</ion-content>

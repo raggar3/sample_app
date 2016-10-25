@@ -1,0 +1,53 @@
+
+<ion-header-bar ng-controller="MapCtrl" ng-init="init_map()" align-title="center" class="bar-positive">
+      <div class="buttons">
+        <button class="button" ng-click="gethomepage()">Home</button>
+      </div>
+     
+        <h1 class="title">Our Location</h1>
+    
+      <div class="buttons">
+        <button class="button" ng-click="loadmodal()">Call to order</button>
+      </div>
+    </ion-header-bar>
+  <ion-content ng-controller="MapCtrl" class="background_image">
+    <div class="btn_textbox_holder">
+      <div class="location_input_field">
+        <label class="item item-input">
+          <input type="text" id="search_area" ng-model="geoaddress" ng-focus="geolocate()" placeholder="Search my location">
+        </label>
+      </div>
+      <div class="find_location_button">
+          <button ng-click="get_geo_address()" class="button button-block button-positive">
+            Search location
+          </button>
+      </div>
+    </div>
+    <div id="delivery_info" ng-class="class">
+      <div class="card">
+        <div class="item item-divider">
+          Delivery Area
+        </div>
+        <div class="item item-text-wrap">
+          {{delivery_area}}
+        </div>
+        <div class="item item-divider">
+          Total Distance (In Miles)
+        </div>
+        <div id="delivery_distance" class="item item-text-wrap">
+          
+        </div>
+        <div class="item item-divider">
+          Delivery Charge
+        </div>
+        <div id="deliver_charges" class="item item-text-wrap">
+          <!--{{delivery_charges}} -->
+        </div>
+      </div>
+    </div>
+    <div class="map_holder scroll">
+      <div id="map" data-tap-disabled="true"></div>
+    </div>
+      
+    </ion-content>
+    

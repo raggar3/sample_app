@@ -1,0 +1,42 @@
+<ion-modal-view>
+	<ion-header-bar align-title="center" class="bar-positive">
+	      <div class="buttons">
+	        <button class="button" ng-click="gethomepage()">Home</button>
+	      </div>
+	     
+	        <h1 class="title">Post Review</h1>
+	    
+	      <div class="buttons">
+	        <button class="button" ng-click="closemodal()">Close</button>
+	      </div>
+	</ion-header-bar>
+	<ion-content class="padding review_model_content" ng-controller="StarCtrl">
+		<div id="form_fields">
+			<div class="list">
+			  <label class="item item-input item-stacked-label">
+			    <span class="input-label">First Name</span>
+			    <input type="text" placeholder="Mike">
+			  </label>
+			  <label class="item item-input item-stacked-label">
+			    <span class="input-label">Last Name</span>
+			    <input type="text" placeholder="Martin">
+			  </label>
+			  <div class="rating_holder"> 
+	                    
+	                        <div star-rating type="dir" rating-value="1" max="5" class="star_size" on-rating-selected="getSelectedRating(rating)" >
+	                        </div>
+	                    
+		      </div>  
+			  <label class="item item-input item-stacked-label">
+			    <span class="input-label">Write my review.</span>
+			    <textarea rows="4" placeholder="Comments"></textarea>
+			  </label>
+			</div>
+		</div>
+		<div id="submit_button">
+			<button class="button button-block button-positive">
+				Post my review
+			</button>
+		</div>
+	</ion-content>
+</ion-modal-view>

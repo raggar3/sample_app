@@ -1,0 +1,311 @@
+/* Empty. Add your own CSS if you like */
+/*img {
+    width: 100%;
+    height: 175px;
+}*/
+.item{
+	padding: 0px;
+}
+div#menu_name {
+    position: absolute;
+    background: rgba(18, 21, 27, 0.69);
+    color: white;
+    padding-bottom: 30%;
+    padding-top: 30%;
+    left: 15%;
+    right: 15%;
+    text-align: center;
+    top: 15%;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+span#tabname {
+    font-family: sans-serif;
+    font-size: 1.2em;
+}
+
+.modal {
+        display: block;
+    position: absolute;
+    top: 150px;
+    z-index: 10;
+    overflow: hidden;
+    min-height: 15%;
+    width: 75%;
+    background-color: #fff;
+    height: 40px;
+    margin-right: 49px;
+    left: 10%;
+}
+
+._aboutus_content {
+    margin-top: 10%;
+    color: white;
+    font-size: 1.2rem;
+}
+.first_para, .second_para {
+    margin: 5%;
+}
+
+div#maps_container {
+    border: 1px solid lightgray;
+}
+img._f_image {
+    width: 100%;
+    height: auto;
+    border-radius: 30%;
+}
+.row._food_row {
+    border: 1px solid rgba(212, 194, 172, 0.75);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.food_category {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(247, 181, 102, 0.98);
+    color: white;
+    border-radius: 10px;
+    padding: 2%;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.item_homepage {
+    /*padding: 49px; */
+    height: 9rem;
+    width: 9rem;
+    border-radius: 25%;
+    border: 2px solid;
+    text-align: center;
+    /* vertical-align: text-bottom; */
+    line-height: 8.5rem;
+    background-color: rgba(34, 42, 49, 0.72);
+    color: white !IMPORTANT;
+    font-size: 1.4rem;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    word-wrap: break-word;
+}
+a.menu_name {
+    color: white;
+    text-decoration: none;
+}
+.background_image {
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6) ), 
+    url("http://i63.tinypic.com/ruw96e.jpg");
+    background-size: cover;
+}
+.background_image_homes {
+    background: linear-gradient( rgba(0, 0, 0, 0.43), rgba(0, 0, 0, 0.53) ), 
+    url("http://i67.tinypic.com/w8nyfd.jpg");
+    background-size: cover;
+}
+.text_layer {
+    color: white;
+}
+._food_category_block {
+    margin-bottom: 2%;
+}
+.food_name{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+a.more_info_link {
+    text-decoration: none;
+    color: white;
+}
+._food_menu_name {
+    display: none;
+}
+#map {
+  height: 80%;
+  border: 3px solid rgba(255, 190, 67, 0.85);
+    border-radius: 15px;
+}
+
+.map_holder {
+width: 300px;
+    height: 400px !IMPORTANT;
+    margin: 5% 0% 0% 10%;
+}
+.btn_textbox_holder {
+    margin-top: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.delivery_area_info_hide{
+    display: none;
+}
+.delivery_area_info_show{
+    display: block;
+}
+.item.item-divider, .item-text-wrap {
+    padding: 5px 5px;
+}
+div#form_fields {
+    background-color: rgb(255, 255, 255);
+    margin-top: 10%;
+}
+label.item.item-input.item-stacked-label {
+    padding-left: 5px;
+}
+.list.card {
+    padding: 2%;
+}
+.font_color{
+    color: white;
+}
+.social_icon_holder {
+    /* text-align: center; */
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+.logo_social {
+    display: inline-block;
+    vertical-align: top;
+        margin-top: 3%;
+}
+.icon_social {
+    display: inline-block;
+}
+.social_icons {
+    margin-top: 15%;
+    background-color: rgba(255, 255, 255, 0.81);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+img.rwd_logo {
+    width: 75%;
+}
+.font_color {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10%;
+    font-stretch: ultra-condensed;
+}
+
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css')
+/*Star rating style */
+/*
+.rating {
+    color: #a9a9a9;
+    margin: 0;
+    padding: 0;
+}
+ul.rating {
+    display: inline-block;
+}
+.rating li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.rating .filled {
+    color: red;
+}
+*/
+h2.food_desc_title {
+    text-align: center;
+    /* vertical-align: baseline; */
+    font-size: 2em;
+    color: white;
+}
+.food_desc_img {
+    /* width: 80%; */
+    padding: 10% 10% 10% 10%;
+}
+.food_desc_holder {
+    border: 2px solid #e2bf92;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 10%;
+    color: white;
+}
+h2.food_desc_title {
+    color: white;
+    text-align: center;
+}
+img.full-image {
+    border-radius: 51%;
+}  
+p.food_desc_p.ng-binding {
+    padding: 5%;
+    text-align: center;
+}
+
+.list.card.review_card {
+    margin-top: 15%;
+}
+
+.modal {
+    display: block;
+    position: absolute;
+    top: 0%;
+    z-index: 10;
+    overflow: hidden;
+    min-height: 48%;
+    width: 100%; 
+    background-color: #fff;
+    height: 70%;
+    /*margin-right: 49px;*/
+    left: 0%;
+} 
+
+.rating_holder {
+    border: 1px solid silver;
+    padding: 10px 20px;
+    margin: 10px 0px;
+}
+
+
+.rating {
+    color: #a9a9a9;
+    margin: 0;
+    padding: 0;
+}
+ul.rating {
+    display: inline-block;
+}
+.rating li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1px;
+    padding-right: 3px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.rating .filled {
+    color: #ff8446;
+}
+.star_size > ul >li {
+    padding-right: 10px;
+    font-size: 25px;
+}
+.item.item-avatar.border_back {
+    border: 1px solid silver;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.headering_design {
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgba(121, 53, 4, 0.91);
+}
+p.feedback_design {
+    margin-top: 10px;
+}
+i.fa.fa-quote-right, i.fa.fa-quote-left  {
+    font-size: 10px;
+    vertical-align: top;
+}
